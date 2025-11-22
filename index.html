@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/pp1.jpg">
+    <title>footer vertical sedang - by JiwanDev</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3b82f6',
+                        secondary: '#1e293b',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-100 font-sans antialiased flex flex-col min-h-screen">
+
+    <!-- Main Content (Empty to push footer to bottom) -->
+    <main class="flex-grow container mx-auto px-6 py-12">
+        <!-- Content removed as requested -->
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gradient-to-br from-slate-900 to-slate-800 text-white pt-16 pb-8 mt-auto opacity-0 translate-y-10 transition-all duration-1000 ease-out" id="main-footer">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                
+                <!-- Section 1: Tentang -->
+                <div class="footer-section">
+                    <h3 class="text-xl font-bold mb-6 text-blue-400 relative inline-block">
+                        Tentang Kami
+                        <span class="absolute bottom-0 left-0 w-1/2 h-1 bg-blue-500 rounded"></span>
+                    </h3>
+                    <p class="text-slate-300 leading-relaxed mb-6">
+                        Kami adalah perusahaan teknologi yang berfokus pada inovasi digital dan solusi kreatif untuk membantu bisnis Anda berkembang di era modern.
+                    </p>
+                    <a href="#" class="text-blue-400 hover:text-blue-300 font-medium transition-colors">Baca Selengkapnya &rarr;</a>
+                </div>
+
+                <!-- Section 2: Kontak -->
+                <div class="footer-section">
+                    <h3 class="text-xl font-bold mb-6 text-blue-400 relative inline-block">
+                        Hubungi Kami
+                        <span class="absolute bottom-0 left-0 w-1/2 h-1 bg-blue-500 rounded"></span>
+                    </h3>
+                    <ul class="space-y-4 text-slate-300">
+                        <li class="flex items-start space-x-3 group">
+                            <i class="fas fa-map-marker-alt mt-1 text-blue-500 group-hover:text-blue-400 transition-colors"></i>
+                            <span>Jl. Sudirman No. 123, Jakarta Selatan, Indonesia 12190</span>
+                        </li>
+                        <li class="flex items-center space-x-3 group">
+                            <i class="fas fa-phone-alt text-blue-500 group-hover:text-blue-400 transition-colors"></i>
+                            <span>+62 21 5555 6789</span>
+                        </li>
+                        <li class="flex items-center space-x-3 group">
+                            <i class="fas fa-envelope text-blue-500 group-hover:text-blue-400 transition-colors"></i>
+                            <span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="066f686069467663747375676e6767682865696b">[email&#160;protected]</a></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Section 3: Link Cepat -->
+                <div class="footer-section">
+                    <h3 class="text-xl font-bold mb-6 text-blue-400 relative inline-block">
+                        Link Cepat
+                        <span class="absolute bottom-0 left-0 w-1/2 h-1 bg-blue-500 rounded"></span>
+                    </h3>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="#" class="footer-link text-slate-300 hover:text-white transition-colors inline-block relative">Beranda</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link text-slate-300 hover:text-white transition-colors inline-block relative">Layanan</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link text-slate-300 hover:text-white transition-colors inline-block relative">Portofolio</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link text-slate-300 hover:text-white transition-colors inline-block relative">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link text-slate-300 hover:text-white transition-colors inline-block relative">Karir</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Section 4: Sosial Media -->
+                <div class="footer-section">
+                    <h3 class="text-xl font-bold mb-6 text-blue-400 relative inline-block">
+                        Ikuti Kami
+                        <span class="absolute bottom-0 left-0 w-1/2 h-1 bg-blue-500 rounded"></span>
+                    </h3>
+                    <p class="text-slate-300 mb-6">Tetap terhubung dengan kami di sosial media untuk update terbaru.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="social-icon w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center text-white hover:bg-blue-600 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-500/30">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center text-white hover:bg-sky-500 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-sky-500/30">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center text-white hover:bg-pink-600 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-pink-600/30">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center text-white hover:bg-blue-700 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-700/30">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="border-t border-slate-700 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-slate-400 text-sm text-center md:text-left mb-4 md:mb-0">
+                    &copy; 2025 Perusahaan Anda. All rights reserved. by JiwanDev.
+                </p>
+                <div class="flex space-x-6 text-sm text-slate-400">
+                    <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="watermark">by JiwanDev</div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="module" src="./script.js"></script>
+</body>
+</html>

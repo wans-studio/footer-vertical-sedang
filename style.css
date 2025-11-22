@@ -1,0 +1,56 @@
+/* Custom Styles */
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Animated Underline for Footer Links */
+.footer-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #3b82f6; /* Tailwind blue-500 */
+    transition: width 0.3s ease-in-out;
+}
+
+.footer-link:hover::after {
+    width: 100%;
+}
+
+.watermark {
+    position: fixed;     
+    top: 50%;             
+    left: 50%;            
+    transform: translate(-50%, -50%);
+    opacity: 0.15;        
+    pointer-events: none;
+    z-index: 9999;        
+}
+
+/* Animation Classes applied by JS */
+.animate-in {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
